@@ -7,10 +7,10 @@ import Typography from "@mui/material/Typography";
 export const Prayer = ({ prayerTilte, image, time }) => {
   return (
     <PrayerContainer>
-      <Card className="card">
+      <Card>
         <CardMedia
           sx={{ height: 200 }}
-          image={`/public/images/${image}.png`}
+          image={`/images/${image}`}
           title="green iguana"
         />
         <CardContent style={{ textAlign: "right" }}>
@@ -30,10 +30,4 @@ export const Prayer = ({ prayerTilte, image, time }) => {
 
 const PrayerContainer = styled.div`
   width: 100%;
-
-  /* @media (max-width: 992px) {
-    .card {
-      width: 300px;
-    }
-  } */
 `;
