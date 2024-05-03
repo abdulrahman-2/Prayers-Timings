@@ -95,6 +95,10 @@ const Container = styled.div`
   flex-direction: column;
   direction: rtl;
 
+  @media (max-width: 768px) {
+    margin-top: 0px;
+  }
+
   .top {
     display: flex;
     justify-content: space-evenly;

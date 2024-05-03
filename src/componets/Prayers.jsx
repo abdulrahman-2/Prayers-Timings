@@ -28,5 +28,6 @@ const PrayersContainer = styled.div`
   @media (max-width: 768px) {
     width: 100%;
     flex-direction: column;
+    margin: 30px 0;
   }
 `;
