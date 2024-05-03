@@ -101,6 +101,11 @@ const Container = styled.div`
     align-items: center;
     width: 100%;
     padding-bottom: 20px;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+      gap: 30px;
+    }
   }
 
   .loading {

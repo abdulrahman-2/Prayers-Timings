@@ -13,7 +13,7 @@ const theme = createTheme({
 function App() {
   return (
     <>
-      <Container maxWidth="xl">
+      <Container maxWidth="xl" style={{ padding: "20px" }}>
         <ThemeProvider theme={theme}>
           <PrayerProvider>
             <PrayerTimings />
