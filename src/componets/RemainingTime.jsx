@@ -5,7 +5,7 @@ const RemainingTime = () => {
   const { nextPrayerName, remainingTime } = usePrayerContext();
 
   return (
-    <div>
+    <div style={{ textAlign: "center" }}>
       <Typography
         sx={{
           fontSize: 22,
